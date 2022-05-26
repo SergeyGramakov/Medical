@@ -1,0 +1,933 @@
+/*------------- МЕДИА-ЗАПРОСЫ -------------*/
+@media screen and (min-width: 1500px) {
+
+    .wrapper header nav {
+        font-size: 16px;
+    }
+
+    .wrapper .part-chess img {
+        object-fit: cover;
+    }
+
+    .wrapper .part-gallery img {
+        object-fit: cover;
+    }
+
+    .wrapper footer {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .wrapper footer div:first-of-type {
+        height: 100% !important;
+        overflow-wrap: break-word;
+    }
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1020px) {
+
+    html {
+        font-size: 16px;
+    }
+
+    body span {
+        font-size: 14px;
+    }
+
+    .wrapper header nav div {
+        font-size: 12px;
+    }
+
+    .wrapper header nav div h3 {
+        font-size: 20px;
+    }
+
+    .wrapper header nav button {
+        font-size: 12px;
+    }
+
+    .part-main .font-size-big {
+        font-size: 30px;
+    }
+
+    .part-main .text-on-img-main {
+        top: 30%;
+        font-size: 20px;
+        text-shadow: 0 0 4px black;
+    }
+
+    .part-main .container-text__width {
+        width: 500px;
+    }
+
+    .wrapper .part-chess img {
+        object-fit: cover;
+    }
+
+    .wrapper .part-gallery img {
+        object-fit: cover;
+    }
+
+    .wrapper .part-gallery .width-60 {
+        width: 90% !important;
+    }
+
+    .part-form h3 {
+        font-size: 25px;
+    }
+
+    .part-form .width-input {
+        width: 50%;
+    }
+
+    .wrapper footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .wrapper footer div:first-of-type {
+        height: 100% !important;
+        overflow-wrap: break-word;
+    }
+
+    .wrapper footer .width-60 {
+        width: 80% !important;
+    }
+
+    footer .footer__width-container {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1320px) and (min-width: 1020px) {
+
+    header nav div h3 a {
+        display: block;
+    }
+
+    header nav div a {
+        display: none;
+    }
+
+    .wrapper .part-chess img {
+        object-fit: cover;
+    }
+
+    .wrapper .part-gallery .width-60 {
+        width: 90% !important;
+    }
+
+}
+
+@media screen and (max-width: 1020px) and (min-width: 420px) {
+
+    html {
+        font-size: 14px;
+    }
+
+    .wrapper header .width-60 {
+        width: 80% !important;
+    }
+
+    .wrapper header button .mode{
+        width: 33px;
+        height: 33px;
+    }
+
+    header nav div h3 a {
+        display: block;
+    }
+
+    header nav div a {
+        display: none;
+    }
+
+    .part-main .font-size-big {
+        font-size: 24px;
+    }
+
+    .part-main .text-on-img-main {
+        top: 25%;
+        left: 10%;
+        font-size: 14px;
+        text-shadow: 0 0 3px black;
+    }
+
+    .part-main .container-text__width {
+        width: 330px;
+    }
+
+    .part-main div div {
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .part-main div button {
+        padding: 0.2rem 1.4rem !important;
+    }
+
+    .wrapper .part-doc .width-60 {
+        width: 80% !important;
+    }
+
+    .wrapper .text-on-img-chess {
+        top: 25%;
+        left: 15%;
+        font-size: 18px;
+    }
+
+    .wrapper .part-chess img {
+        object-fit: cover;
+    }
+
+    .wrapper .part-chess div h5 {
+        font-size: 14px;
+    }
+
+    .wrapper .part-chess div h3 {
+        font-size: 16px;
+    }
+
+    .wrapper .part-chess div h2 {
+        font-size: 18px;
+    }
+
+    .wrapper .part-chess div {
+        font-size: 12px;
+    }
+
+    .wrapper .part-gallery .width-60 {
+        width: 90% !important;
+    }
+
+    .part-gallery img:nth-of-type(4) {
+        margin-bottom: 1.5rem;
+    }
+
+    .wrapper .part-form form .width-input {
+        width: 80%;
+    }
+
+    .wrapper .part-form form h3 {
+        font-size: 50px;
+    }
+
+    .wrapper footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .wrapper footer div:first-of-type {
+        height: 100% !important;
+    }
+
+    .wrapper footer .width-60 {
+        width: 90% !important;
+    }
+
+    .wrapper footer .footer__width-container {
+        width: 250px;
+    }
+
+}
+
+@media screen and (max-width: 824px) and (min-width: 420px) {
+
+    .wrapper .part-chess div {
+        padding-top: 0.5rem !important;
+    }
+
+    .wrapper .part-gallery div {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+}
+
+@media screen and (max-width: 824px) and (min-width: 666px) {
+
+    .part-gallery img:nth-of-type(1),
+    .part-gallery img:nth-of-type(2),
+    .part-gallery img:nth-of-type(3),
+    .part-gallery img:nth-of-type(4),
+    .part-gallery img:nth-of-type(5),
+    .part-gallery img:nth-of-type(6){
+        margin-right: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 824px) and (min-width: 666px) {
+
+    .part-gallery img:nth-of-type(5),
+    .part-gallery img:nth-of-type(6) {
+        margin-bottom: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .wrapper .text-on-img-chess {
+        top: 25%;
+        left: 13%;
+        font-size: 15px;
+    }
+
+    .wrapper .part-chess img {
+        object-fit: cover;
+    }
+
+    .wrapper .part-chess div{
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 700px) and (min-width: 330px) {
+
+    html {
+        font-size: 10px;
+    }
+
+    .modal-content {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .wrapper footer * {
+        font-size: 1.5rem !important;
+    }
+
+    .wrapper footer div {
+        flex: 1 1;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    }
+
+    .wrapper footer div > div {
+        margin: 2rem;
+    }
+
+}
+@media screen and (max-width: 580px) and (min-width: 520px) {
+
+    .wrapper header {
+        position: relative !important;
+        width: 100vw !important;
+    }
+
+    .wrapper header button #mode {
+        width: 39px;
+        height: 39px;
+        display: block !important;
+        position: relative !important;
+    }
+
+    .wrapper header button .mode {
+        width: 28px;
+        height: 28px;
+        display: block !important;
+        margin: -3px;
+        padding: 3px;
+    }
+
+    .part-main .text-on-img-main {
+        top: 10%;
+        left: 10%;
+        font-size: 12px;
+        text-shadow: 0 0 4px black;
+    }
+
+    .part-main .container-text__width {
+        width: 330px;
+    }
+
+}
+
+@media screen and (max-width: 520px) and (min-width: 330px) {
+
+    html {
+        font-size: 10px;
+    }
+
+    .wrapper header {
+        position: relative !important;
+        width: 100vw !important;
+    }
+
+    .wrapper header button #mode {
+        width: 35px;
+        height: 35px;
+        display: block !important;
+        position: relative !important;
+    }
+
+    .wrapper header button .mode {
+        width: 28px;
+        height: 28px;
+        display: block !important;
+        margin: -3px;
+        padding: 3px;
+    }
+
+    header nav div h3 a {
+        display: block;
+    }
+
+    header nav div a {
+        display: none;
+    }
+
+    .wrapper header .width-60 {
+        width: 90% !important;
+    }
+
+    .wrapper header nav {
+        justify-content: space-between !important;
+    }
+
+    .wrapper .part-main img {
+        width: 100%;
+    }
+
+    .part-main .font-size-big {
+        font-size: 14px;
+    }
+
+    .part-main .text-on-img-main {
+        top: 17%;
+        left: 5%;
+        font-size: 8px;
+        text-shadow: 0 0 4px black;
+    }
+
+    .part-main .container-text__width {
+        width: 315px;
+        word-break: break-word;
+    }
+
+    .part-main .container-text__width div {
+        margin-top: 1rem !important;
+    }
+
+    .wrapper .part-doc .width-60 {
+        width: 90% !important;
+    }
+
+    .wrapper .part-doc {
+        font-size: 10px;
+    }
+
+    .wrapper .part-chess img:first-of-type,
+    .wrapper .part-chess img:last-of-type,
+    .wrapper .part-chess div:first-of-type,
+    .wrapper .part-chess div:last-of-type {
+        width: 100% !important;
+    }
+
+    .wrapper .part-chess div > div {
+        margin: 1rem 5rem;
+    }
+
+    .wrapper .part-chess div > div h5 {
+        font-size: 3.5em;
+    }
+
+    .wrapper .part-chess div > div h3 {
+        font-size: 2.5em;
+        padding-top: 0.5rem;
+    }
+
+    .wrapper .part-chess div > div h2 {
+        font-size: 2em;
+        padding-top: 0.5rem;
+    }
+
+    .wrapper .part-chess div > div p {
+        font-size: 1.2rem;
+        padding-top: 1rem;
+    }
+
+    .wrapper .part-chess .show-on-tablet-pc {
+        display: none !important;
+    }
+
+    .wrapper .part-chess .show-on-phone {
+        display: flex !important;
+    }
+
+    .wrapper .part-chess div {
+        padding: 0.5rem 0 0.2rem 0 !important;
+    }
+
+    .wrapper .text-on-img-chess {
+        top: 13%;
+        left: 30%;
+        font-size: 21px;
+    }
+
+    .wrapper .part-chess img {
+        object-fit: cover;
+    }
+
+    .wrapper .part-chess div h5 {
+        font-size: 9px;
+    }
+
+    .wrapper .part-chess div h3 {
+        font-size: 11px;
+    }
+
+    .wrapper .part-chess div h2 {
+        font-size: 12px;
+    }
+
+    .wrapper .part-chess div {
+        font-size: 7px;
+    }
+
+    .wrapper .part-gallery .width-60 {
+        width: 90% !important;
+    }
+
+    .wrapper .part-gallery #pics {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .part-gallery img {
+        width: 300px !important;
+    }
+
+    .part-gallery img:nth-of-type(4),
+    .part-gallery img:nth-of-type(5) {
+        margin-bottom: 1.5rem;
+    }
+
+    .wrapper .part-form div {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .wrapper .part-form div form * {
+        margin: 7px auto !important;
+    }
+
+    .wrapper .part-form div form div button {
+        display: block !important;
+        margin: 15px auto !important;
+    }
+
+    .wrapper .part-form form h3 {
+        text-align: center;
+        font-size: 36px;
+    }
+
+    .wrapper footer .width-60 {
+        width: 100% !important;
+        margin: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 420px) and (min-width: 330px) {
+
+    .wrapper .text-on-img-chess {
+        top: 12%;
+        left: 28%;
+        font-size: 21px;
+    }
+
+    .wrapper .part-form form h3 {
+        font-size: 26px;
+    }
+
+    .wrapper footer {
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    .wrapper footer .width-60 {
+        width: 100% !important;
+        margin: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 360px) and (min-width: 330px) {
+
+    .wrapper .text-on-img-chess {
+        top: 11%;
+        left: 25%;
+    }
+
+}
+
+/*------------- УНИВЕРСАЛЬНЫЕ СЕЛЕКТОРЫ -------------*/
+body {
+    font-size: 10px;
+    overflow-x: hidden;
+    color: #2c2b2b;
+    background-color: #ffffff;
+}
+
+body.dark-theme {
+    color: #ffffff;
+    background-color: #2c2b2b;
+}
+
+body.dark-theme header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body.dark-theme header {
+    color: #ffffff;
+    background-color: #2c2b2b;
+}
+
+body.dark-theme .part-gallery {
+    background-color: #918b8b;
+}
+
+body .wrapper {
+    font-size: 15px;
+    width: 100vw;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.width-60 {
+    margin: 0 auto;
+    width: 60%;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0069d9;
+    text-decoration: none;
+}
+
+.btn-brick {
+    border-radius: unset;
+}
+
+header nav button a:hover,
+.part-doc div button a:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+/*------------- ХЕДЕР -------------*/
+.mode {
+    width: 40px;
+    height: 40px;
+}
+
+header {
+    padding: 1.2rem;
+    height: 5rem;
+    opacity: 85%;
+    background-color: #f3f7fc;
+    transition: transform .1s linear;
+    border-bottom: #918b8b 1px solid;
+}
+
+nav .width-60 {
+    width: 80% !important;
+    margin: 0 auto;
+ }
+
+.header-hide {
+    transform: translateY(-5rem);
+    transition-duration: 0.5s;
+}
+
+header div h3 a:hover {
+    color: inherit;
+}
+
+header div h3::first-letter {
+    color: #1ca3e6;
+}
+
+.margin-50px {
+    margin-left: 50px;
+}
+
+.progress-container {
+    width: 100%;
+    height: 6px;
+    z-index:1031;
+    opacity: 85%;
+    color: #f3f7fc;
+}
+
+.progress-bar {
+    height: 6px;
+    background: #1ca3e6;
+    width: 0;
+    border-bottom: black 1px solid;
+}
+
+
+/*------------- СТИЛИ МЕЙНА -------------*/
+main {
+    width: 100%;
+}
+.part-main {
+    position: relative;
+}
+
+.text-on-img-main {
+    position: absolute;
+    top: 37%;
+    left: 20%;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.part-main img {
+    width: 100%;
+}
+
+.container-text__width {
+    width: 550px;
+}
+
+.font-size-big {
+    font-size: 52px;
+}
+
+.part-main a:hover {
+    color: #1ca3e6;
+}
+
+.btn-color-white {
+    background-color: white;
+}
+
+/*------------- СТИЛИ ДЛЯ ЧАСТИ С ДОКТОРОМ -------------*/
+.part-doc {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 100%;
+}
+
+.part-doc img {
+    width: 100%;
+}
+
+.color-aqua {
+    color: #1ca3e6;
+}
+
+.btn-color-aqua {
+    color: white;
+    background-color: #1ca3e6;
+}
+
+/*------------- СТИЛИ ШАХМАТНОЙ СЕКЦИИ -------------*/
+div #text-on-img-chess {
+    position: relative;
+    cursor:  pointer;
+}
+
+.text-on-img-chess {
+    position: absolute;
+    top: 25%;
+    left: 17%;
+    text-transform: uppercase;
+    color: white;
+    background-color: unset;
+}
+
+.part-chess div {
+    width: 50%;
+    color: white;
+    background-color: #1ca3e6;
+}
+
+.part-chess img{
+    width: 50%;
+}
+
+.show-on-phone {
+    display: none !important;
+}
+
+/*------------- СТИЛИ ДЛЯ ГАЛЕРЕИ -------------*/
+.part-gallery {
+    width: 100vw;
+    background-color: #f1f1f1;
+}
+
+.part-gallery img:hover {
+    cursor: pointer;
+}
+
+.animated {
+    transform: scale(0.1);
+    opacity: 0;
+}
+
+.animated.active {
+    transform: scale(1);
+    opacity: 1;
+    transition-duration: 2s;
+}
+
+.part-gallery #pics #modalImg1:hover {
+    transform: translate(0, -15px);
+    box-shadow: -3px 10px 30px 5px rgba(0, 0, 0, 0.5);
+    transition-duration: 1s;
+}
+
+.part-gallery #pics #modalImg2 {
+    z-index: 1;
+}
+
+.part-gallery #pics #modalImg2:hover {
+    transform: scale(1.3);
+    transition: 2s;
+    z-index: 1;
+    box-shadow: -3px 10px 30px 5px rgba(0, 0, 0, 0.5);
+}
+
+.part-gallery #pics #modalImg3:hover {
+    border-radius: 50%;
+    transition-duration: 2s;
+    box-shadow: -3px 10px 30px 5px rgba(0, 0, 0, 0.5);
+}
+
+.part-gallery #pics #modalImg4 {
+    filter: grayscale(100%);
+    transition: 2s;
+}
+
+.part-gallery #pics #modalImg4:hover {
+    filter: grayscale(0);
+    box-shadow: -3px 10px 30px 5px rgba(0, 0, 0, 0.5);
+}
+
+.part-gallery #pics #modalImg5:hover {
+    transform: scale(0.7);
+    box-shadow: -3px 10px 30px 5px rgba(0, 0, 0, 0.5);
+}
+
+.part-gallery #pics #modalImg6 {
+    filter: sepia(0);
+    transition: 2s;
+}
+
+.part-gallery #pics #modalImg6:hover {
+    filter: sepia(100%);
+    box-shadow: -3px 10px 30px 5px rgba(0, 0, 0, 0.5);
+}
+
+#modalImg1, #modalImg2,
+#modalImg3, #modalImg4,
+#modalImg5, #modalImg6 {
+    cursor: pointer;
+    width:100%;
+    max-width:300px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1031;
+    padding-top: 100px;
+    margin: auto;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    left: 0;
+    top: 0;
+}
+
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*------------- СТИЛИ ДЛЯ ЧАСТИ С ФОРМОЙ -------------*/
+.part-form h3 {
+    font-family: Consolas, sans-serif;
+    letter-spacing: 3px;
+}
+
+textarea {
+    min-height: 200px;
+    max-height: 400px;
+}
+
+.width-input {
+    margin: 0 auto;
+    width: 40%;
+}
+
+.part-form .btn:hover {
+    background-color: #1ca3e6;
+}
+
+/*------------- СТИЛИ ДЛЯ ФУТЕРА -------------*/
+.bg-dark-blue {
+    background-color: #072135;
+}
+
+.text-color-footer {
+    color: #f4f4f5;
+}
+
+.footer__height-content {
+    height: 270px;
+}
+
+.footer__width-container {
+    width: 500px;
+}
+/*------------- THIS IS END -------------*/
